@@ -1,36 +1,35 @@
-
 Matematicas_hello:
-  path: '/matematicas/hello/{name}'
+  path: '/saludo/{name}'
   defaults:
-    _content: '\Drupal\matematicas\Controller\DefaultController::hello'
+    _content: '\Drupal\matematicas\Controller\Matematicas::hello'
     _title: 'Matematicas Title'
   requirements:
     _permission: 'access content'
 Matematicas_suma:
-  path: '/matematicas/suma/{num1}/{num2}'
+  path: '/suma/{num1}/{num2}'
   defaults:
-    _content: '\Drupal\matematicas\Controller\DefaultController::suma'
+    _content: '\Drupal\matematicas\Controller\Matematicas::suma'
     _title: 'Matematicas Suma'
   requirements:
     _permission: 'access content'
 Matematicas_resta:
-  path: '/matematicas/resta/{num1}/{num2}'
+  path: '/resta/{num1}/{num2}'
   defaults:
-    _content: '\Drupal\matematicas\Controller\DefaultController::resta'
+    _content: '\Drupal\matematicas\Controller\Matematicas::resta'
     _title: 'Matematicas Resta'
   requirements:
     _permission: 'access content'
 Matematicas_multiplicacion:
-  path: '/matematicas/multiplicacion/{num1}/{num2}'
+  path: '/multiplicacion/{num1}/{num2}'
   defaults:
-    _content: '\Drupal\matematicas\Controller\DefaultController::multiplicacion'
+    _content: '\Drupal\matematicas\Controller\Matematicas::multiplicacion'
     _title: 'Matematicas Multiplicación'
   requirements:
     _permission: 'access content'
 Matematicas_division:
-  path: '/matematicas/division/{num1}/{num2}'
+  path: '/division/{num1}/{num2}'
   defaults:
-    _content: '\Drupal\matematicas\Controller\DefaultController::division'
+    _content: '\Drupal\matematicas\Controller\Matematicas::division'
     _title: 'Matematicas División'
   requirements:
     _permission: 'access content'
