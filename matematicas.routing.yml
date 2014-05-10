@@ -6,3 +6,10 @@ Matematicas_hello:
     _title: 'Matematicas Title'
   requirements:
     _permission: 'access content'
+Matematicas_suma:
+  path: '/matematicas/suma/{num1}/{num2}'
+  defaults:
+    _content: '\Drupal\matematicas\Controller\DefaultController::suma'
+    _title: 'Matematicas Suma'
+  requirements:
+    _permission: 'access content'
