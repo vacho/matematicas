@@ -20,3 +20,10 @@ Matematicas_resta:
     _title: 'Matematicas Resta'
   requirements:
     _permission: 'access content'
+Matematicas_multiplicacion:
+  path: '/matematicas/multiplicacion/{num1}/{num2}'
+  defaults:
+    _content: '\Drupal\matematicas\Controller\DefaultController::multiplicacion'
+    _title: 'Matematicas Multiplicación'
+  requirements:
+    _permission: 'access content'

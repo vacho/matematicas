@@ -36,5 +36,15 @@ class DefaultController extends ControllerBase
     return $num1 - $num2;
   }
 
+  /**
+   * multiplicacion
+   * @param float $num1
+   * @param float $num2
+   * @return float
+   */
+  public function multiplicacion($num1, $num2) {
+    return $num1 * $num2;
+  }
+
 
 }
