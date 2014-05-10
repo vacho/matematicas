@@ -27,3 +27,10 @@ Matematicas_multiplicacion:
     _title: 'Matematicas Multiplicación'
   requirements:
     _permission: 'access content'
+Matematicas_division:
+  path: '/matematicas/division/{num1}/{num2}'
+  defaults:
+    _content: '\Drupal\matematicas\Controller\DefaultController::division'
+    _title: 'Matematicas División'
+  requirements:
+    _permission: 'access content'
