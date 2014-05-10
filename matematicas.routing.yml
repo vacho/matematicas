@@ -13,3 +13,10 @@ Matematicas_suma:
     _title: 'Matematicas Suma'
   requirements:
     _permission: 'access content'
+Matematicas_resta:
+  path: '/matematicas/resta/{num1}/{num2}'
+  defaults:
+    _content: '\Drupal\matematicas\Controller\DefaultController::resta'
+    _title: 'Matematicas Resta'
+  requirements:
+    _permission: 'access content'

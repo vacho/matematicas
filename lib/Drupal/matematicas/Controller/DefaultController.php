@@ -26,4 +26,15 @@ class DefaultController extends ControllerBase
     return $num1 + $num2;
   }
 
+  /**
+   * resta
+   * @param float $num1
+   * @param float $num2
+   * @return float
+   */
+  public function resta($num1, $num2) {
+    return $num1 - $num2;
+  }
+
+
 }
