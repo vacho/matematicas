@@ -1,0 +1,8 @@
+
+Matematicas_hello:
+  path: '/matematicas/hello/{name}'
+  defaults:
+    _content: '\Drupal\matematicas\Controller\DefaultController::hello'
+    _title: 'Matematicas Title'
+  requirements:
+    _permission: 'access content'

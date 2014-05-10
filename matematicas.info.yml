@@ -1,0 +1,5 @@
+name: Matematicas
+type: module
+description: Simple mathematical functions
+core: 8.x
+package: Other

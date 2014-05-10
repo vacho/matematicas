@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Contains matematicas.module
+ */
+
+/**
+ * Implements hook_help().
+ */
+
+function matematicas_help($path, $arg)
+{
+  switch ($path) {
+    case 'admin/help#Matematicas':
+      $output = 'Simple mathematicas functions';
+      return $output;
+    break;
+  }
+}
